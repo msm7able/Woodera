@@ -15,12 +15,9 @@ nav {
   padding: 0rem calc((100vw - 1300px) / 2);
 }
 
-.logo {
-  color: #000;
-  font-size: 1.5rem;
-  font-weight: bold;
-  font-style: italic;
-  padding: 0 2rem;
+.logo SVG Logo1-408e2161d538.png {
+  width: 70px;
+  height: 30px;
 }
 
 nav a {
@@ -117,4 +114,9 @@ button:hover {
   .hero-container {
     grid-template-columns: 1fr;
   }
+}
+/* Selector pentru logo */
+nav a img {
+  width: 200px;
+  height: 150px;
 }
