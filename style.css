@@ -15,11 +15,6 @@ nav {
   padding: 0rem calc((100vw - 1300px) / 2);
 }
 
-.logo SVG Logo1-408e2161d538.png {
-  width: 70px;
-  height: 30px;
-}
-
 nav a {
   text-decoration: none;
   color: #000;
@@ -86,14 +81,9 @@ button:hover {
 .hero-image {
   width: 120%;
   height: 100%;
+  animation: float 3s ease-in-out infinite;
 }
 
-@media screen and (max-width: 768px) {
-  .hero-container {
-    grid-template-columns: 1fr;
-  }
-}
-/* Animație plutitoare pentru imagine */
 @keyframes float {
   0% {
     transform: translateY(0);
@@ -106,17 +96,56 @@ button:hover {
   }
 }
 
-.hero-image {
-  animation: float 3s ease-in-out infinite;
-}
-
 @media screen and (max-width: 768px) {
   .hero-container {
     grid-template-columns: 1fr;
   }
 }
-/* Selector pentru logo */
+
 nav a img {
   width: 200px;
   height: 150px;
+}
+
+/* Stiluri pentru secțiuni */
+.section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background: #fdcc04; /* Culoare de fundal similară cu cea din nav și hero */
+  color: #000; /* Culoarea textului */
+}
+
+.section-container {
+  text-align: center;
+}
+
+.section h2 {
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+}
+
+.section p {
+  margin-bottom: 1.5rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.section-image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1.5rem;
+}
+
+#emailInput {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #000;
+  border-radius: 5px;
+  width: 80%;
+  max-width: 400px;
+  margin: 0 auto;
+  display: block;
 }
