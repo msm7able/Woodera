@@ -107,15 +107,15 @@ nav a img {
   height: 150px;
 }
 
-/* Stiluri pentru secțiuni */
+/* Sectiune Find out More */
 .section {
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 2rem;
-  background: #fdcc04; /* Culoare de fundal similară cu cea din nav și hero */
-  color: #000; /* Culoarea textului */
+  background: #fdcc04;
+  color: #000;
 }
 
 .section-container {
